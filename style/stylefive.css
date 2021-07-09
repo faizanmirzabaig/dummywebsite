@@ -1,0 +1,117 @@
+.sectionfiverow{
+    margin-right: -44px;
+}
+.sectionfivedata{
+    margin-top: 93px !important;
+}
+
+.sectionfivedata i{
+   
+    color: #fff;
+    font-size: 27px;
+    padding: 22px 21px 22px 25px;
+    background: #0da3fa;
+    border-radius: 50%;
+
+}
+.sectionfivedata h1{
+    color: #1e2d44;
+    font-size: 44px;
+    margin-top: 14px;
+    font-weight: 900;
+
+}
+.carousel-indicators {
+    left: unset !important;
+    top: unset !important;
+    bottom: unset !important;
+}
+.carousel-indicators {
+    position: absolute;
+    right: unset !important;
+    bottom: unset !important;
+     left: unset  !important;
+}
+.carousel-indicators .active {
+    background-color: #07a3f6 !important;
+}
+.carousel-indicators li {
+    background: #90cefd !important;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin: 0px 10px;
+}
+
+@media(max-width:1200px) and(max-width:991px){
+    .sectionfiveimg img{
+        width: 411px;
+
+    }
+
+}
+@media(max-width:991px){
+    .sectionfivedata h1{
+        font-size: 34px;
+    }
+    br{
+        content: '';
+    }
+    .sectionfiverow{
+        margin-right: -59px;
+    }
+    .sectionfivedata{
+        margin-top: 0px !important;
+    }
+.sectionfivedata p{
+    padding: 0 !important;
+}
+.sectionfiverow img{
+    width: 321px !important;
+}
+}
+
+
+@media(max-width:768px){
+  
+    .sectionfiveimg img{
+        margin: auto;
+        display: block;
+    }
+    .sectionfivedata{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 57px;
+    }
+    .carousel-indicators {
+        /* left: 0; */
+        /* top: auto; */
+        /* bottom: -38px; */
+        /* left: 0 !important ;
+        top:0 !important ;
+        bottom: 0 !important ;
+     */
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0 !important;
+        bottom: 10px !important;
+        left: 0 !important;
+    }
+}
+
+@media(max-width:622px){
+    .sectionfiverow{
+        margin-right: 0px;
+    }
+}
+@media(max-width:621px){
+    .sectionfivedata h1 {
+        font-size: 25px;
+    }
+}
+@media(max-width:390px){
+    .sectionfivedata h1 {
+        font-size: 22px;
+    }
+}
