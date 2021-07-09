@@ -1,155 +1,78 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Wireframe</title>
+  </head>
+  <body>
+    
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-
-  <!-- link of stylesheet -->
-
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/styletwo.css">
-  <link rel="stylesheet" href="style/stylethree.css">
-  <link rel="stylesheet" href="style/stylefour.css">
-  <link rel="stylesheet" href="style/stylefive.css">
-  <link rel="stylesheet" href="style/stylesix.css">
-  <link rel="stylesheet" href="style/styleseven.css">
-  <link rel="stylesheet" href="style/styleeight.css">
-  <link rel="stylesheet" href="style/stylenine.css">
-  <link rel="stylesheet" href="style/sectionten.css">
-  <link rel="stylesheet" href="style/styleelven.css">
-  <link rel="stylesheet" href="style/styletwelve.css">
-  <link rel="stylesheet" href="style/stylethirteen.css">
-
-
-  <!-- <link rel="stylesheet" href="resopnsive.css"> -->
-  <!-- link of stylesheet end here -->
-  <title>Wireframe</title>
-</head>
-
-<body>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-body{
-  /* overflow-x: hidden; */
-}
-html{
-    scroll-behavior: smooth;
-}
-
-.navbar-brand {
-    margin-left: 86px !important;
-}
-
-
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
-    margin-right: 86px !important;
-}
-.navbar{
-  transition: 0.3s all ease;
-}
-.navbar-brand{
-  margin-left: 30px;
-}
-.nav-item a{
-  color:white !important;
-  padding: 0px 20px !important;
-  font-size: 20px;
-  transition: 0.2s all ease;
-  /* font-weight: 700; */
-}
-.nav-item a:hover{
-  font-weight: 500;
-}
-/* .navbar{
-  background-color: wheat;
-
-} */
-.navbar.sticky{
-  background-color: #0da3fa;
-  padding: 15px 0px;
-
-
-}
-
-</style>
-
-<div class="scroll-up-btn"> 
+<div class="scroll-up-btn" id="backtotop"> 
   <i class="fas fa-angle-up"></i> 
-</div>     
-
-<nav class="navbar navbar-expand-lg  sticky position-fixed w-100 " style="z-index: 9999999;">
-  <a class="navbar-brand" href="#" style="color: white; font-size: 20px; font-weight: bolder;">Logo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto menu">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sectionfour">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sectionsix">Screenshots</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sectioneight">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sectionten">Download</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#sectiontwelve">Contact</a>
-      </li>
-     
-    </ul>
-  </div>
-</nav>
-
-<!-- first section start from here -->
-<section class="firstsection">
-<div class="container firstsectioncontainer">
-  <div class="row">
-    <div class="col-md-6 firstsectioncol" style="margin: auto;" >
-      <div class="data">
-      <h1 style="color: white;"  class="sectionfirsthead"> No Complexity, Easy Integrate</h1>
-      <p style="color: white;">Quality control of your data including read length distribution and uniformly assessment in a few clicks and choose your favourate technology. </p>
-    <button>Download Now</button>
-  </div>
-    </div>
-    <div class="col-sm-6 firstsectionhide">
-      <div class="firstsectionimg">
-        <img src="assets/img/iphone_img.jpg" alt="">
+</div>    
+    <nav class="navbar navbar-expand-lg  sticky  position-fixed w-100  "style="z-index: 9999999;">
+      <a class="navbar-brand" href="#" style="color: white; font-size: 20px; font-weight: bolder;">Logo</a>
+      <button style="outline: none !important;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" >   
+          <i class="fa fa-navicon" style="color:#fff; font-size:28px; outline: none !important;"></i>
+      </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto menu text-center ">
+          <li class="nav-item  active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sectionfour">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sectionsix">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sectioneight">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sectionten">Download</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sectiontwelve">Contact</a>
+          </li>
+         
+        </ul>
       </div>
+    </nav>
 
-    </div>
-  </div>
-</div>
-</section>
+    <section class="firstsection">
+      <div class="container firstsectioncontainer">
+        <div class="row">
+          <div class="col-md-6 firstsectioncol"  >
+            <div class="data">
+            <h1 style="color: white;"  class="sectionfirsthead"> No Complexity,<br> Easy Integrate</h1>
+            <p class="sectionfirstp" style="color: white;">Quality control of your data including read length distribution and uniformly assessment in a few clicks and choose your favourate technology. </p>
+          <button>Download Now</button>
+        </div>
+          </div>
+          <div class="col-sm-6 firstsectionhide">
+            
+      
+          </div>
+        </div>
+      </div>
+      </section>
 
 
-
-  <!-- section 2 start from here -->
-  <section class="sectiontwo" style="margin-top: 99px;">
+       <!-- section 2 start from here -->
+  <section class="sectiontwo" style="padding: 100px 0px;"> 
     <div class="container sectiontwocontainer " style="height: auto;">
       <div class="sectiontwohead">
         <h1 class="text-center ">
@@ -194,246 +117,242 @@ html{
 
       </div>
     </div>
-  </section>
+  </section> 
 
   <!-- section 2 end here -->
 
-
-
-  <!-- section 3 start from here -->
-  <section class="sectionthree" style="margin-top: 100px;">
-    <div class="container sectionthreecontainer " style="height: auto !important ;">
-      <div class="row secthreerowone" style="margin-right: 20px;">
-
-        <div class="col-md-6 ">
-          <div class="secthreecol" style="display: block; width: 100%; ">
-            <h1 style="font-size: 41px;
-      font-weight: 900; 
-  ">Simplest way to <br class="br1"> build tools.</h1>
-            <p style="padding: 0px 0px 0px 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-              labore.</p>
-            <button class="secthreebuttonone">Download now</button>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="secthreeimgone">
-            <img src="assets/img/mockup3-phone.png" style="width: 524px;
-  " alt="mockup3-phone">
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-    <div class="container sectionthreecontainer ">
-      <div class="row secthreerowtwo ">
-
-        <div class="col-md-6">
-          <div class="secthreeimgone">
-            <img src="assets/img/app-screen.png" style="width: 524px;
-  " alt="app=screem">
-          </div>
-        </div>
-
-        <div class="col-md-6 ">
-          <div class="secthreecol">
-            <h1 style="font-size: 34px;
-font-weight: 900; word-wrap: break-word;  
-
-">Quality control of your data with <br> support.</h1>
-            <p style="    PADDING: 0PX 19PX 0PX 0PX;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt utz
-              labore.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-              labore.</p>
-            <button class="secthreebuttonone">Download now</button>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </section>
-
-  <!-- section three end here -->
-
-  <!-- section four start from here -->
-  <section class="sectionfourbgcolor" id="sectionfour" style="padding-top: 100px;">
-    <div class="container sectionfourcontainer" style="height: auto;">
-      <div class=" sectionfourhead" style="width: 100%;">
-        <h1 class="text-center">
-          Amazing <span style="color: #0da2f4;"> Features</span>
-
-        </h1>
-      </div>
-      <div class="row sectionfourrow">
-        <div class="col-md-6 col-lg-3 sectionfourmargin">
-          <div class="love">
-            <i class="fas fa-file-alt"></i>
-
-            <h1>Made With Love</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
-              sadipscing.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 sectionfourmargin">
-          <div class="powerful">
-            <i class="fas fa-file-alt"></i>
-
-            <h1>Powerful </h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
-              sadipscing.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 sectionfourmargin">
-          <div class="messages ">
-            <i class="fas fa-file-alt"></i>
-
-            <h1>Send Messages</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
-              sadipscing.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 sectionfourmargin">
-          <div class="money">
-            <i class="fas fa-file-alt"></i>
-            <h1>
-              Save Money</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
-              sadipscing.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- section four end here -->
-
-
-  <!-- section five start from here -->
-  <section class="sectionfive" style="margin-top:249px;">
-    <div class="container">
-      <div class="row sectionfiverow " style="position: relative;">
-        <div class="col-md-6">
-          <div class="sectionfiveimg">
-            <img src="assets/img/data_7.png" style="width: 509px;" alt="data_7">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="sectionfivedata">
-            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-            <h1>Manage Everything <br class=""> In One Place</h1>
-            <p style="color: #7ed4ff;">.................</p>
-            <p style=" padding: 0px 166px 0px 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              interdum ante vel aliquet euismod.
-              Curabitur <br> accumsan vitae augue vitae eleifend. Nam nisl massa, malesuada id imperdiet ac.</p>
-            <h1></h1>
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- section five end here -->
-
-
-  <!-- section six start from here -->
-  <section id="sectionsix" style="padding-top: 70px;">
-    <div class="container" style="position: relative;">
-      <div class="row">
-        <div class="col-md-12">
-          <div id='dead' class='carousel slide' data-ride='carousel'>
-
-            <div class="sectionsixhead">
-              <h1 class="text-center">App <span style="color: #10a2f7; font-weight: bolder;"> Screenshots </span></h1>
+    <!-- section 3 start from here -->
+    <section class="sectionthree" style="padding-top: 50px;"> 
+      <div class="container sectionthreecontainer " style="height: auto !important ;">
+        <div class="row secthreerowone" style="margin-right: 20px;">
+  
+          <div class="col-md-6 ">
+            <div class="secthreecol" style="display: block; width: 100%; ">
+              <h1 style="font-size: 41px;
+        font-weight: 900; 
+    ">Simplest way to <br class="br1"> build tools.</h1>
+              <p style="padding: 0px 0px 0px 0px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt utz
+                labore.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore.</p>
+              <button class="secthreebuttonone">Download now</button>
             </div>
-
-            <div class='carousel-inner'>
-              <div class="carousel-item active">
-                <div class='row'>
-
-
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol" >
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-                  <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
-                    <div class="sectionsiximg">
-                      <img src="assets/img/screenshot/interface_1.png" alt="">
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-
-
+          </div>
+          <div class="col-md-6">
+            <div class="secthreeimgone">
+              <img src="img/mockup3-phone.png" style="width: 524px;" alt="mockup3-phone">
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+      <div class="container sectionthreecontainer ">
+        <div class="row secthreerowtwo ">
+  
+          <div class="col-md-6">
+            <div class="secthreeimgone">
+              <img src="img/app-screen.png" style="width: 524px;
+    " alt="app=screem">
+            </div>
+          </div>
+  
+          <div class="col-md-6 ">
+            <div class="secthreecol">
+              <h1 style="font-size: 34px;
+  font-weight: 900; word-wrap: break-word;  
+  
+  ">Quality control of your data with <br> support.</h1>
+              <p style="    PADDING: 0PX 0PX 0PX 0PX;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt utz
+                labore.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore.</p>
+              <button class="secthreebuttonone">Download now</button>
             </div>
           </div>
         </div>
+  
+  
       </div>
-      <a class="carousel-control left carousel-control-prev" href="#dead" data-slide="prev">
-        <img src="arror.png" alt='arrol' style="height: 35px;" />
-
-      </a>
-      <a class="carousel-control right carousel-control-next" href="#dead" data-slide="next">
-        <img data-src alt="Right" src="arrol.png" style="height: 35px">
-      </a>
-    </div>
-  </section>
+    </section> 
+  
 
 
-  <!-- section six end here -->
+    <!-- section 3 end here -->
+      
+      <!-- section 4 start here -->
+      <section class="sectionfourbgcolor" id="sectionfour" style="padding-top: 100px;">
+        <div class="container sectionfourcontainer" style="height: auto;">
+          <div class=" sectionfourhead" style="width: 100%;">
+            <h1 class="text-center">
+              Amazing <span style="color: #0da2f4;"> Features</span>
+    
+            </h1>
+          </div>
+          <div class="row sectionfourrow">
+            <div class="col-md-6 col-lg-3 sectionfourmargin">
+              <div class="love">
+                <i class="fas fa-file-alt"></i>
+    
+                <h1>Made With Love</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
+                  sadipscing.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 sectionfourmargin">
+              <div class="powerful">
+                <i class="fas fa-file-alt"></i>
+    
+                <h1>Powerful </h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
+                  sadipscing.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 sectionfourmargin">
+              <div class="messages ">
+                <i class="fas fa-file-alt"></i>
+    
+                <h1>Send Messages</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
+                  sadipscing.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 sectionfourmargin">
+              <div class="money">
+                <i class="fas fa-file-alt"></i>
+                <h1>
+                  Save Money</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur
+                  sadipscing.</p>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+      <!-- section 4 end here -->
 
+      <!-- section 5 start here -->
+      <section class="sectionfive" style="padding-top:130px;">
+        <div class="container">
+          <div class="row sectionfiverow " style="position: relative;">
+            <div class="col-md-6">
+              <div class="sectionfiveimg">
+                <img src="img/data_7.png" style="width: 509px;" alt="data_7">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="sectionfivedata">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <h1>Manage Everything <br class=""> In One Place</h1>
+                <p style="color: #7ed4ff;">.................</p>
+                <p style=" padding: 0px 166px 0px 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  interdum ante vel aliquet euismod.
+                  Curabitur <br> accumsan vitae augue vitae eleifend. Nam nisl massa, malesuada id imperdiet ac.</p>
+                <h1></h1>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+
+      <!-- section 5 end here -->
+
+    <!-- section six start from here -->
+    <section id="sectionsix" style="padding-top: 70px;">
+      <div class="container" style="position: relative;">
+        <div class="row">
+          <div class="col-md-12">
+            <div id='dead' class='carousel slide' data-ride='carousel'>
+  
+              <div class="sectionsixhead">
+                <h1 class="text-center">App <span style="color: #10a2f7; font-weight: bolder;"> Screenshots </span></h1>
+              </div>
+  
+              <div class='carousel-inner'>
+                <div class="carousel-item active">
+                  <div class='row'>
+  
+  
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol" >
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+  
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+  
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+  
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+                    <div class="col-md-4 col-sm-4 col-xs-12 sectionsixcol">
+                      <div class="sectionsiximg">
+                        <img src="img/interface_1.png" alt="">
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+  
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control left carousel-control-prev" href="#dead" data-slide="prev">
+          <img src="img/arror.png" alt='arrol' style="height: 35px;" />
+  
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#dead" data-slide="next">
+          <img data-src alt="Right" src="img/arrol.png" style="height: 35px">
+        </a>
+      </div>
+    </section>
+    <!-- section six end here -->
+    
   <!-- section seven start from here -->
-  <section class="sectionseven" style="margin-top: 100px;">
+  <section class="sectionseven" style="padding-top: 100px;">
     <div class="container">
       <div class="row">
         <div class="col-md-6 sectionsevencol">
           <div class="sectionsevenimg">
-            <img src="assets/img/video.jpg" alt="video">
+            <img src="img/video.jpg" alt="video">
           </div>
         </div>
         <div class="col-md-6 sectionsevencol">
@@ -455,77 +374,70 @@ font-weight: 900; word-wrap: break-word;
 
 
   <!-- section seven end here -->
-
-
-  <!-- section eight start from here -->
-  <section class="sectioneight" id="sectioneight" style="padding-top: 100px; margin-top: 100px; background: #1d293f; height: 132vh;">
-    <div class="container">
-      <div class="sectioneighthead" style="padding-top: 20px;">
-        <h1 class="text-center   " style="color: white;  ">
-          Affordable <span style="color: #0ea2fc;"> Pricing </span> For All
-        </h1>
-      </div>
-      <div class="row">
-        <div class="col-md-4  sectioneightcol">
-          <div class="starter">
-            <h1 class="starterfirsthead">Starter</h1>
-            <p class="starterfirstp" style="color: #0fa0f9; line-height: 0;">.....</p>
-            <h1 style="font-size: 54px;">$29</h1>
-            <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
-            <p style="font-weight: 500; color: '#434459';">15 website</p>
-            <p style="     font-weight: 500; color: '#434459';">50GB Disk Space</p>
-            <p style="          font-weight: 500; color: '#434459';">50 Email Acoounts </p>
-            <button>Get Start</button>
-          </div>
-        </div>
-
-
-        <div class="col-md-4 sectioneightcol">
-          <div class="popular">
-            <h1 class="popularfirsthead">Popular</h1>
-            <p class="popularp" style="color: #0fa0f9; line-height: 0;">.....</p>
-            <h1 style="font-size: 54px;">$49</h1>
-            <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
-            <p style="font-weight: 500; color:'#434459'">15 website</p>
-            <p style="     font-weight: 500; color:'#434459'">50GB Disk Space</p>
-            <p style="          font-weight: 500; color:'#434459'">50 Email Acoounts </p>
-            <p style="          font-weight: 500; color:'#434459'">50 Monthly Bandwidtth </p>
-            <p style="          font-weight: 500; color:'#434459'">50 Subdomains </p>
-
-            <button>Get Start</button>
-
-
-          </div>
-
-        </div>
-        <div class="col-md-4 sectioneightcol">
-          <div class="advance">
-            <h1 class="popularfirsthead">advance</h1>
-            <p class="popularp" style="color: #0fa0f9; line-height: 0;">.....</p>
-            <h1 style="font-size: 54px;">$69</h1>
-            <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
-            <p style="font-weight: 500; ">15 website</p>
-            <p style="     font-weight: 500; ">50GB Disk Space</p>
-            <p style="          font-weight: 500; ">50 Email Acoounts </p>
-            <p style="          font-weight: 500; ">50 Monthly Bandwidtth </p>
-            <p style="          font-weight: 500; ">50 Subdomains </p>
-            <p style="          font-weight: 500; ">50 Domains </p>
-            <p style="          font-weight: 500; ">Unlimited Support </p>
-
-            <button>Get Start</button>
-          </div>
-        </div>
-
-      </div>
+ <!-- section eight start from here -->
+ <section class="sectioneight" id="sectioneight" style="padding-top: 100px; margin-top: 63px; padding-bottom: 54px;  background: #1d293f; height: 100%;">
+  <div class="container">
+    <div class="sectioneighthead" style="padding-top: 20px;">
+      <h1 class="text-center   " style="color: white;  ">
+        Affordable <span style="color: #0ea2fc;"> Pricing </span> For All
+      </h1>
     </div>
+    <div class="row">
+      <div class="col-md-4  sectioneightcol">
+        <div class="starter">
+          <h1 class="starterfirsthead">Starter</h1>
+          <p class="starterfirstp" style="color: #0fa0f9; line-height: 0;">.....</p>
+          <h1 style="font-size: 54px;">$29</h1>
+          <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
+          <p style="font-weight: 500; color: '#434459';">15 website</p>
+          <p style="     font-weight: 500; color: '#434459';">50GB Disk Space</p>
+          <p style="          font-weight: 500; color: '#434459';">50 Email Acoounts </p>
+          <button>Get Start</button>
+        </div>
+      </div>
 
-  </section>
+
+      <div class="col-md-4 sectioneightcol">
+        <div class="popular">
+          <h1 class="popularfirsthead">Popular</h1>
+          <p class="popularp" style="color: #0fa0f9; line-height: 0;">.....</p>
+          <h1 style="font-size: 54px;">$49</h1>
+          <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
+          <p style="font-weight: 500; color:'#434459'">15 website</p>
+          <p style="     font-weight: 500; color:'#434459'">50GB Disk Space</p>
+          <p style="          font-weight: 500; color:'#434459'">50 Email Acoounts </p>
+          <p style="          font-weight: 500; color:'#434459'">50 Monthly Bandwidtth </p>
+          <p style="          font-weight: 500; color:'#434459'">50 Subdomains </p>
+
+          <button>Get Start</button>
 
 
+        </div>
 
+      </div>
+      <div class="col-md-4 sectioneightcol">
+        <div class="advance">
+          <h1 class="popularfirsthead">advance</h1>
+          <p class="popularp" style="color: #0fa0f9; line-height: 0;">.....</p>
+          <h1 style="font-size: 54px;">$69</h1>
+          <h1 style="font-size: 16px; margin-bottom: 30px;">Monthly</h1>
+          <p style="font-weight: 500; ">15 website</p>
+          <p style="     font-weight: 500; ">50GB Disk Space</p>
+          <p style="          font-weight: 500; ">50 Email Acoounts </p>
+          <p style="          font-weight: 500; ">50 Monthly Bandwidtth </p>
+          <p style="          font-weight: 500; ">50 Subdomains </p>
+          <p style="          font-weight: 500; ">50 Domains </p>
+          <p style="          font-weight: 500; ">Unlimited Support </p>
 
-  <!-- section eight end here -->
+          <button>Get Start</button>
+        </div>
+      </div>
 
+    </div>
+  </div>
+
+</section>
+<!-- section eight end here -->
 
   <!-- section nine start from here -->
 
@@ -540,7 +452,7 @@ font-weight: 900; word-wrap: break-word;
         </div>
         <div class="col-md-6">
           <div class="sectonninerightcol">
-            <img src="assets/img/testimonial/1.jpg" alt='img19' style="width: 100px; height: 100px; border-radius: 50%;">
+            <img src="img/1.jpg" alt='img19' style="width: 100px; height: 100px; border-radius: 50%;">
             <h1 style="font-size: 18px; text-align: left;
           font-weight: 900; margin-top: 20px;
     line-height: 0.8;">Mithilia Nihad</h1>
@@ -548,7 +460,7 @@ font-weight: 900; word-wrap: break-word;
           font-weight: 900; text-align: left; ">Founder</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cras interdum ante vel aliquet euismod.
               Curabitur accusman vitae augue vitae eleifand. Nam nisi massa, mallesuada id imprediet ac .</p>
-            <img class="imgtwo" src="star.png" style="margin-top: -43px;" alt="star">
+            <img class="imgtwo" src="img/star.png" style="margin-top: -43px;" alt="star">
           </div>
         </div>
 
@@ -558,103 +470,104 @@ font-weight: 900; word-wrap: break-word;
 
 
   <!-- section nine end here -->
-
   <!-- section ten start here -->
-  <section class="sectionten" id="sectionten" style="   padding-top: 100px;  width: 100%; background: #0f3460; height: 65vh;">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-          <div class="sectiontenhead">
-            <h1 class="text-center" style="color: white; font-weight: bolder;   "> Now Available</h1>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center"> 
-              <img class="sectiontenimg"  src="assets/img/app-store-logo.png" alt="App Store">
-              <img style="background-color: #fff !important;" class='sectiontenimg' src="assets/img/google-play-logo.png"  class="sectiontenimgtwo" alt="google play">
-
+  <section class="sectionten" id="sectionten" style="   padding-top: 0px;
+  width: 100%;
+  background: #0f3460;
+  padding-bottom: 64px; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+              <div class="sectiontenhead">
+                <h1 class="text-center" style="color: white; font-weight: bolder;   "> Now Available</h1>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center"> 
+                  <img class="sectiontenimg"  src="img/app-store-logo.png" alt="App Store">
+                  <img style="background-color: #fff !important;" class='sectiontenimg' src="img/google-play-logo.png"  class="sectiontenimgtwo" alt="google play">
+    
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div> 
-  
-  </section>
-  <!-- section nine end her -->
+      </div> 
+      
+      </section>
+
   <!-- section ten end here -->
 
-  <!-- section eleven start here -->
-  <section class="eleven" style="margin-top: 100px;">
-    <div class="frequently">
-      <h1 class="text-center">Frequently Asked <span style="color: #0ea6e5;"> Question </span> </h1>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="accordion">
-            <div class="accordion-item">
-              <div class="accordion-item-header">
-                Clean Code
-              </div>
-              <div class="accordion-item-body">
-                <div class="accordion-item-body-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
-                  et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
+    <!-- section eleven start here -->
+    <section class="eleven" style="margin-top: 100px;">
+      <div class="frequently">
+        <h1 class="text-center">Frequently Asked <span style="color: #0ea6e5;"> Question </span> </h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="accordion">
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  Clean Code
+                </div>
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
+                    et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-item-header">
-                Great design out of box
-              </div>
-              <div class="accordion-item-body">
-                <div class="accordion-item-body-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
-                  et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
-
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  Great design out of box
+                </div>
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
+                    et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
+  
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-item-header">
-                Fit on all devices
-              </div>
-              <div class="accordion-item-body">
-                <div class="accordion-item-body-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
-                  et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
-
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  Fit on all devices
+                </div>
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
+                    et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
+  
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="accordion-item">
-              <div class="accordion-item-header">
-                Made with passion
-              </div>
-              <div class="accordion-item-body">
-                <div class="accordion-item-body-content">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
-                  et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
-
-
+              
+              <div class="accordion-item">
+                <div class="accordion-item-header">
+                  Made with passion
+                </div>
+                <div class="accordion-item-body">
+                  <div class="accordion-item-body-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod neque quo vitae omnis magnam optio iste
+                    et, corporis quis nihil corrupti. Id fugit magnam, saepe itaque
+  
+  
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-  </section>
-
-
-
-
-
-  <!-- section eleven  end here-->
-
-
-  <!-- section twelve start from here -->
+  
+    </section>
+  
+  
+  
+  
+  
+    <!-- section eleven  end here-->
+    <!-- section twelve start here -->
+     <!-- section twelve start from here -->
 
   <section class="sectiontwelve" id="sectiontwelve" style=" padding-top: 100px;">
     <div class="contactangle">
@@ -714,19 +627,19 @@ font-weight: 900; word-wrap: break-word;
               aliquet euismod</p>
             <ul class="lfs-social-list">
               <li>
-                <a> <img src="img/socialmedia/facebook.png" alt="Linkedin"></a>
+                <a> <img src="img/facebook.png" alt="Linkedin"></a>
               </li>
               <li>
-                <a> <img src="img/socialmedia/twitter.png" alt="Linkedin"></a>
+                <a> <img src="img/twitter.png" alt="Linkedin"></a>
               </li>
               <li>
-                <a> <img src="img/socialmedia/lin.png" alt="Linkedin"></a>
+                <a> <img src="img/lin.png" alt="Linkedin"></a>
               </li>
               <li>
-                <a> <img src="img/socialmedia/instagram.png" alt="Linkedin"></a>
+                <a> <img src="img/instagram.png" alt="Linkedin"></a>
               </li>
               <li>
-                <a> <img src="img/socialmedia/youtube.png" alt="Linkedin"></a>
+                <a> <img src="img/youtube.png" alt="Linkedin"></a>
               </li>
             </ul>
           </div>
@@ -763,88 +676,79 @@ font-weight: 900; word-wrap: break-word;
 
 
   <!-- section thirtheen end here -->
-
-
-  <!-- section fourtheen start from here -->
-  <section style="margin-top: 100px; background: #0f3460;">
-    <div class="container ">
-      <div class="row foutheenrow">
-        <div class="col-md-2  brandcol">
-          <div class="brand">
-            <img src="assets/img/partner/brand-3.png" alt="">
+    <!-- section fourtheen start from here -->
+    <section style=" background: #0f3460;">
+      <div class="container ">
+        <div class="row foutheenrow">
+          <div class="col-md-2  brandcol">
+            <div class="brand">
+              <img src="img/brand-3.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-md-2 brandcol">
-          <div class="brand">
-
-            <img src="assets/img/partner/brand-4.png" alt="">
+          <div class="col-md-2 brandcol">
+            <div class="brand">
+  
+              <img src="img/brand-4.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-md-2 brandcol">
-          <div class="brand">
-            <img src="assets/img/partner/brand-5.png" alt="">
+          <div class="col-md-2 brandcol">
+            <div class="brand">
+              <img src="img/brand-5.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-md-2 brandcol">
-          <div class="brand">
-
-            <img src="assets/img/partner/brand-2.png" alt="">
+          <div class="col-md-2 brandcol">
+            <div class="brand">
+  
+              <img src="img/brand-2.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="col-md-2 brandcol">
-          <div class="brand">
-            <img src="assets/img/partner/brand-1.png" alt="">
+          <div class="col-md-2 brandcol">
+            <div class="brand">
+              <img src="img/brand-1.png" alt="">
+            </div>
           </div>
+  
+  
         </div>
-
-
       </div>
-    </div>
-  </section>
+    </section>
+  
+  
+  
+    <!-- section fourteen end here -->
+  
+  
+  
+    <!-- section fifteen start here -->
+    <section>
+          <div class="map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.130394769292!2d72.93468741490231!3d19.145768687047926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79384eee74a13%3A0x8aab46bea82859b9!2sLAKSN%20Technologies%20pvt%20ltd.!5e0!3m2!1sen!2sin!4v1625240134759!5m2!1sen!2sin "
+              width="100% " height="488px" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </section>
+  
+            <div class="footer">
+              <h1 class="text-center" style="    background-color: #1d293f;
+              color: white;
+              font-size: 16px;
+              padding: 24px 0px 23px 0px;
+              margin: auto;">Copyright &#169; 2021 | Powered By Faizan  </h1>
+   </div>
+  
+  
+  
+    <!-- section fifteen end her -->
+  
 
-
-
-  <!-- section fourteen end here -->
-
-
-
-  <!-- section fifteen start here -->
-  <section>
-        <div class="map">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.130394769292!2d72.93468741490231!3d19.145768687047926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79384eee74a13%3A0x8aab46bea82859b9!2sLAKSN%20Technologies%20pvt%20ltd.!5e0!3m2!1sen!2sin!4v1625240134759!5m2!1sen!2sin "
-            width="100% " height="488px" style="border:0;" allowfullscreen loading="lazy"></iframe>
-    </div>
-  </section>
-
-          <div class="footer">
-            <h1 class="text-center" style="    background-color: #1d293f;
-            color: white;
-            font-size: 16px;
-            padding: 24px 0px 23px 0px;
-            margin: auto;">Copyright &#169; 2021 | Powered By LAKSN Technologies </h1>
- </div>
-
-
-
-  <!-- section fifteen end her -->
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/accordion.js
-  "></script>
-  <script src="https://kit.fontawesome.com/85aff20f47.js" crossorigin="anonymous"></script>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
+  
+    <script src="js/accordion.js"></script>    
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/85aff20f47.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
